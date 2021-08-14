@@ -1,0 +1,12 @@
+2021/08/10 14:41:16 Log Type : (Update)userId : {1}, Name : [john] : `upadate data'.
+2021/08/10 14:41:16 Log Type : (Delete) userID : {2} IP : {192.168.0.102}: `Delete data By Id`.
+2021/08/10 14:41:16 Log Type : (Warning) userID : {3} IP : {192.168.0.102}: `Something worng`.
+2021/08/10 14:41:16 Log Type : (Endpoint) userID : {4} Endpoint : {work/path/Customlog}: ``.
+2021/08/10 14:41:19 Log Type : (Update)userId : {1}, Name : [john] : `upadate data'.
+2021/08/10 14:41:19 Log Type : (Delete) userID : {2} IP : {192.168.0.102}: `Delete data By Id`.
+2021/08/10 14:41:19 Log Type : (Warning) userID : {3} IP : {192.168.0.102}: `Something worng`.
+2021/08/10 14:41:19 Log Type : (Endpoint) userID : {4} Endpoint : {work/path/Customlog}: ``.
+2021/08/10 14:43:16 Log Type : (Update)userId : {2}, Name : [john] : `upadate data'.
+2021/08/10 14:43:16 Log Type : (Delete) userID : {2} IP : {192.168.0.102}: `Delete data By Id`.
+2021/08/10 14:43:16 Log Type : (Warning) userID : {3} IP : {192.168.0.102}: `Something worng`.
+2021/08/10 14:43:16 Log Type : (Endpoint) userID : {4} Endpoint : {work/path/Customlog}: ``.

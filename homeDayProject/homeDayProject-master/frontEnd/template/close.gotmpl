@@ -1,0 +1,40 @@
+{{ define "close" }}
+
+{{/* html tag open
+    head tag open
+        head tag content here
+    head tag close
+
+    body tag open
+        main div open
+            header content here
+            navbar content here
+            main page content here */}}
+            
+            {{ template "footer" . }}
+        </div>
+        <script src="../assets/scripts/main.js"></script>
+        {{ if eq .PageTitle "Result" }}
+            <script src="../assets/scripts/resultScript.js"></script>
+        {{ else if eq .PageTitle "Submission" }}
+            <script src="../assets/scripts/submissionScript.js"></script>
+        {{ else if eq .PageTitle "Registration" }}
+            <script src="../assets/scripts/registerScript.js"></script>
+        {{ else if eq .PageTitle "Login" }}
+            <script src="../assets/scripts/loginScript.js"></script>
+        {{ else if eq .PageTitle "Problem" }}
+            <script src="../assets/scripts/problemScript.js"></script>
+            <script type="text/javascript">processPList({{ .PList }});</script>
+        {{ end }}
+
+        {{ if and (eq .PageTitle "Login") (eq .PopUpCause "registrationDone") }}
+            {{ template "popUpScript" . }}
+        {{ else if and (eq .PageTitle "Homepage") (or (eq .PopUpCause "tokenInvalid") (eq .PopUpCause "tokenAlreadyVerified") (eq .PopUpCause "tokenExpired") (eq .PopUpCause "tokenVerifiedNow") (eq .PopUpCause "tokenRequest") (eq .PopUpCause "passwordRequest") (eq .PopUpCause "passTokenInvalid") (eq .PopUpCause "passTokenExpired") (eq .PopUpCause "passwordReset") (eq .PopUpCause "verifyRequired") ) }}
+            {{ template "popUpScript" . }}
+        {{ else if and (eq .PageTitle "Submission") (or (eq .PopUpCause "submissionError") (eq .PopUpCause "submissionErrorCustom") ) }}
+            {{ template "popUpScript" . }}
+        {{ end }}
+    </body>
+</html>
+
+{{ end }}

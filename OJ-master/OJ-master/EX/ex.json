@@ -1,0 +1,138 @@
+object(simple_html_dom)#1 (23) {
+    ["root"]=>  object(simple_html_dom_node)#2 (9) {
+                    ["nodetype"]=>int(5)
+                    ["tag"]=>string(4) "root"
+                    ["attr"]=>array(0) {}
+                    ["children"]=>array(0) {}
+                    ["nodes"]=>array(0) {}
+                    ["parent"]=>NULL
+                    ["_"]=>array(2) {   [0]=>int(-1)
+                                        [1]=>int(1)     }
+                    ["tag_start"]=>int(0)
+                    ["dom":"simple_html_dom_node":private]=>*RECURSION*
+                }
+    ["nodes"]=> array(1) {
+                    [0]=>   object(simple_html_dom_node)#2 (9) {
+                                ["nodetype"]=>int(5)
+                                ["tag"]=>string(4) "root"
+                                ["attr"]=>array(0) {}
+                                ["children"]=>array(0) {}
+                                ["nodes"]=>array(0) {}
+                                ["parent"]=>NULL
+                                ["_"]=> array(2) {
+                                            [0]=>int(-1)
+                                            [1]=>int(1)
+                                        }
+                                ["tag_start"]=>int(0)
+                                ["dom":"simple_html_dom_node":private]=>*RECURSION*
+                            }
+                }
+    ["callback"]=>  NULL
+    ["lowercase"]=> bool(true)
+    ["original_size"]=> int(0)
+    ["size"]=>  int(0)
+    ["pos":protected]=> int(0)
+    ["doc":protected]=> string(0) ""
+    ["char":protected]=>    NULL
+    ["cursor":protected]=>  int(1)
+    ["parent":protected]=>  object(simple_html_dom_node)#2 (9) {
+                                ["nodetype"]=>int(5)
+                                ["tag"]=>string(4) "root"
+                                ["attr"]=>array(0) {}
+                                ["children"]=>array(0) {}
+                                ["nodes"]=>array(0) {}
+                                ["parent"]=>NULL
+                                ["_"]=> array(2) {
+                                            [0]=> int(-1)
+                                            [1]=> int(1)
+                                        }
+                                ["tag_start"]=>int(0)
+                                ["dom":"simple_html_dom_node":private]=>*RECURSION*
+                            }
+    ["noise":protected]=> array(0) {}
+    ["token_blank":protected]=> string(4) " 	"
+    ["token_equal":protected]=> string(4) " =/>"
+    ["token_slash":protected]=> string(6) " />"
+    ["token_attr":protected]=>  string(2) " >"
+    ["_charset"]=>  string(5) "UTF-8"
+    ["_target_charset"]=>   string(5) "UTF-8"
+    ["default_br_text":protected]=> string(2) ""
+    ["default_span_text"]=> string(1) " "
+    ["self_closing_tags":protected]=>   array(14) {
+                                            ["area"]=>int(1)
+                                            ["base"]=>int(1)
+                                            ["br"]=>int(1)
+                                            ["col"]=>int(1)
+                                            ["embed"]=>int(1)
+                                            ["hr"]=>int(1)
+                                            ["img"]=>int(1)
+                                            ["input"]=>int(1)
+                                            ["link"]=>int(1)
+                                            ["meta"]=>int(1)
+                                            ["param"]=>int(1)
+                                            ["source"]=>int(1)
+                                            ["track"]=>int(1)
+                                            ["wbr"]=>int(1)
+                                        }
+    ["block_tags":protected]=>  array(6) {
+                                    ["body"]=>int(1)
+                                    ["div"]=>int(1)
+                                    ["form"]=>int(1)
+                                    ["root"]=>int(1)
+                                    ["span"]=>int(1)
+                                    ["table"]=>int(1)
+                                }
+    ["optional_closing_tags":protected]=>   array(13) {
+                                                ["b"]=> array(1) {
+                                                            ["b"]=>int(1)
+                                                        }
+                                                ["dd"]=>    array(2) {
+                                                                ["dd"]=>int(1)
+                                                                ["dt"]=>int(1)
+                                                            }
+                                                ["dl"]=>    array(2) {
+                                                                ["dd"]=>int(1)
+                                                                ["dt"]=>int(1)
+                                                            }
+                                                ["dt"]=>    array(2) {
+                                                                ["dd"]=>int(1)
+                                                                ["dt"]=>int(1)
+                                                            }
+                                                ["li"]=>    array(1) {
+                                                                ["li"]=>int(1)
+                                                            }
+                                                ["optgroup"]=>  array(2) {
+                                                                    ["optgroup"]=>int(1)
+                                                                    ["option"]=>int(1)
+                                                                }
+                                                ["option"]=>    array(2) {
+                                                                    ["optgroup"]=>int(1)
+                                                                    ["option"]=>int(1)
+                                                                }
+                                                ["p"]=> array(1) {
+                                                            ["p"]=>int(1)
+                                                        }
+                                                ["rp"]=>    array(2) {
+                                                                ["rp"]=>int(1)
+                                                                ["rt"]=>int(1)
+                                                            }
+                                                ["rt"]=>    array(2) {
+                                                                ["rp"]=>int(1)
+                                                                ["rt"]=>int(1)
+                                                            }
+                                                ["td"]=>    array(2) {
+                                                                ["td"]=>int(1)
+                                                                ["th"]=>int(1)
+                                                            }
+                                                ["th"]=>    array(2) {
+                                                                ["td"]=>int(1)
+                                                                ["th"]=>int(1)
+                                                            }
+                                                ["tr"]=>    array(3) {
+                                                                ["td"]=>int(1)
+                                                                ["th"]=>int(1)
+                                                                ["tr"]=>int(1)
+                                                            }
+                                            }
+}
+  

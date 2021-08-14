@@ -1,0 +1,66 @@
+5be6911043ca9d0001941344
+5be6914543ca9d0001941352
+5be6917943ca9d0001941364
+
+5bcf54e849b427000126e923
+
+multipart/form-data; boundary=----WebKitFormBoundaryvDP5C2eiwrWGuYSc
+multipart/form-data; boundary=----WebKitFormBoundary7m7CIzePOA3V0CXG
+multipart/form-data; boundary=----WebKitFormBoundaryQn2MFtRz01ykQxgX
+
+authorization: Token 5FapvID2dOj4Tbha2hDXWJ3RYOU12rZx
+authorization: Token 5FapvID2dOj4Tbha2hDXWJ3RYOU12rZx
+authorization: Token 5FapvID2dOj4Tbha2hDXWJ3RYOU12rZx
+
+
+
+CM
+_csrf: undefined
+lang: C++
+src: 378f891ea7b6a9cdc4257e1d005c4e294b769308
+srch:
+
+name: CSE, DU তে স্বাগতম (Welcome to CSE, DU).cpp
+type: text/plain
+blob: data:application/octet-stream;base64,I2luY2x1ZGU8aW9zdHJlYW0+DQp1c2luZyBuYW1lc3BhY2Ugc3RkOw0KDQppbnQgbWFpbigpDQp7DQogICAgaW50IHgseSx6Ow0KDQogICAgd2hpbGUoY2luPj54Pj55Pj56KQ0KICAgICAgICBjb3V0PDx4K3ktejw8ZW5kbDsNCg0KICAgIHJldHVybiAwOw0KfQ0K
+_csrf: undefined
+
+
+
+CF
+csrf_token: 4642113726b7d88679f389127b0c72d0
+ftaa: rzorzrjjd5ae74r5rj
+bfaa: 8f4b718ff75279774bf376ccd7023fe8
+action: submitSolutionFormSubmitted
+submittedProblemCode: 791A
+programTypeId: 54
+source: #include<iostream>
+#include<stdio.h>
+using namespace std;
+
+#define FI freopen("in.txt","r",stdin);
+#define FO freopen("out.txt","w",stdout);
+
+int main()
+{
+    int a,b;
+
+    while(cin>>a>>b)
+    {
+        int counter=0;
+
+        while(a<=b)
+        {
+            counter++;
+
+            a*=3;
+            b*=2;
+        }
+        cout<<counter<<endl;
+    }
+
+    return 0;
+}
+tabSize: 4
+sourceFile: 
+_tta: 620

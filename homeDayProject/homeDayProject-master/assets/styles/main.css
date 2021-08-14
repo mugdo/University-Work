@@ -1,0 +1,381 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    width: 80%;
+    font-family:Arial,vrinda,times new roman,sans-serif;
+    font-size:14px;
+    line-height:20px;
+    color:#000;
+}
+#main{
+    display:block;
+    overflow: hidden;
+}
+#header{
+    background-color: lightpink;
+    border: 1px solid darksalmon;
+}
+.navBar{
+    border-top: 1px solid #1f74ad;
+    border-bottom: 1px solid #1f74ad;
+    height: 40px;
+    background: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 16px;
+
+    background-color: lightgreen;
+    border: 1px solid darkgreen;
+}
+#navLeft ul{
+    list-style:none;
+}
+#navLeft ul li,#navRight ul li{
+    float: left;
+}
+#navLeft ul li a,#navRight ul li a{
+    text-decoration: none;
+    display:block;
+    padding:10px 14px;
+    color: #2283c3;
+}
+#navLeft ul li a:hover,#navRight ul li a:hover{
+    border-left: 2px solid #1f74ad;
+    border-right: 2px solid #1f74ad;
+    background: #a8d3f0;
+    color: #fff;
+    padding:10px 12px;
+}
+#navRight ul{
+    float: right;
+    list-style:none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#name{
+    padding:10px 14px;
+    color: #1f74ad;
+    font-family: fantasy;
+    background: #a8d3f0;
+}
+
+.loginForm{
+    height: 380px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #e6e6fa;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.loginForm h1{
+    font-family: fantasy;
+    color: #4B0082;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 40px;
+}
+.loginForm input[type="text"],.loginForm input[type="password"]{
+    border: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 12px 18px;
+    width: 200px;
+    outline: none;
+    color: #4B0082;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.loginForm input[type="text"]:focus{
+    width: 260px;
+    border-color: indigo;
+    margin: 40px auto 40px auto;
+    color: #4B0082;
+}
+.loginForm input[type="password"]:focus{
+    width: 260px;
+    border-color: indigo;
+    color: #4B0082;
+}
+.loginForm input[type="submit"]{
+    border: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid white;
+    padding: 12px 48px;
+    outline: none;
+    color: #4B0082;
+    font-weight: bold;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.loginForm input[type="submit"]:hover{
+    background: #6a5abd;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 48px;
+}
+.loginForm a{
+    color: #2283C3;
+    font-style: italic;
+    font-size: 14px;
+}
+.loginForm a:hover{
+    color: #4B0082;
+}
+#registrationForm, #resetForm{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 560px;
+    padding: 30px;
+    border-radius: 10px;
+    background: #e9f4fb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#registrationForm h4{
+    margin-left: 175px;
+    font-weight: normal;
+    margin-bottom: 8px ;
+}
+#registrationForm h1{
+    color: #1f74ad;
+    margin-left: 175px;
+}
+#registrationForm p{
+    margin: 5px 0px 25px 268px;
+}
+#registrationForm label,#resetForm label{
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    font-size: 16px;
+    color: #1b6698;
+    margin-left: 65px;
+}
+#registrationForm input, #registrationForm select, #resetForm input, #resetForm select{
+    width: 240px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    font: 14px sans-serif;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 35px;
+    border-radius: 2px;
+    outline: none;
+    padding: 5px 10px;
+}
+#registrationForm input:focus,#registrationForm select:focus,#resetForm input:focus{
+    border-color: #1f74ad;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#registrationForm input[type="submit"],#resetForm input[type="submit"]{
+    height: 35px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 16px;
+    background: #a8d3f0;
+    border: 2px solid #1f74ad;
+    color: black;
+}
+#registrationForm input[type="reset"]{
+    height: 35px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 180px;
+    font-size: 16px;
+    background: #a8d3f0;
+    border: 2px solid #1f74ad;
+    color: black;
+}
+#registrationForm input[type="submit"]:hover,#registrationForm input[type="reset"]:hover,#resetForm input[type="submit"]:hover{
+    cursor: pointer;
+    background: #1f74ad;
+    color: white;
+}
+#content{
+    background-color: seashell;
+    border: 1px solid darksalmon;
+}
+#upperContent{
+    text-align: center;
+    height: 115px;
+}
+#upperContent a{
+    padding: 3px;
+    text-decoration: none;
+    font-weight: 600;
+}
+#submitAllow{
+    color: white;
+    background-color: lightseagreen;
+    border: 2px solid seagreen;
+}
+#submitAllow:hover{
+    background-color: seagreen;
+}
+#submitDisable{
+    color: white;
+    background-color:coral;
+    border: 2px solid chocolate;
+}
+#submitDisable:hover{
+    background-color: chocolate;
+}
+#lowerContent{
+    text-align: justify;
+    background-color: snow;
+}
+
+#footer{
+    background-color: lightcyan;
+    border: 1px solid darkcyan;
+}
+
+/* for modal */
+/* Popoup */
+.popup-wrap {
+    width:100%;
+    height:100%;
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    content:'';
+    background:rgba(0,0,0,0.85);
+}
+.popup-box {
+    width:400px;
+    padding:70px;
+    transform:translate(-50%, -50%) scale(0.5);
+    position:absolute;
+    top:50%;
+    left:50%;
+    box-shadow:0px 2px 16px rgba(0,0,0,0.5);
+    border-radius:3px;
+    background:#fff;
+    text-align:center;
+}
+.popup-box h2 {
+    color:#1a1a1a;
+}
+.popup-box h3 {
+    color:#888;
+}
+.close-btn {
+    width:35px;
+    height:35px;
+    display:inline-block;
+    position:absolute;
+    top:10px;
+    right:10px;
+    -webkit-transition:all ease 0.5s;
+    transition:all ease 0.5s;
+    border-radius:1000px;
+    background:#d75f70;
+    font-weight:bold;
+    text-decoration:none;
+    color:#fff;
+    line-height:190%;
+}
+.close-btn:hover {
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+
+.transform-in, .transform-out {
+    display:block;
+    -webkit-transition:all ease 0.5s;
+    transition:all ease 0.5s;
+}
+
+.transform-in {
+    -webkit-transform:translate(-50%, -50%) scale(1);
+    transform:translate(-50%, -50%) scale(1);
+}
+
+.transform-out {
+    -webkit-transform:translate(-50%, -50%) scale(0.5);
+    transform:translate(-50%, -50%) scale(0.5);
+}
+
+
+#pager{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    height: 32px;
+    width: 428px;
+}
+#previous{
+    margin-left: 0px;
+    width: 65px;
+    border: 1px solid blue;
+    text-align: center;
+    background-color: lightseagreen;
+    color: white;
+    padding: 5px 0px;
+    border-radius: 3px;
+}
+#previous a,#next a{
+    display:block;
+    cursor:pointer;
+}
+#next{
+    margin-right: 0px;
+    margin-top: -32px;
+    width: 65px;
+    border: 1px solid blue;
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 3px;
+}
+#pagination{
+    width: 288px;
+    text-align: center;
+    background-color: lightblue;
+    color: white;
+    margin-top: -32px;
+    margin-left: 70px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+#pagination ul{
+    list-style: none;
+    display: flex;
+}
+#pagination ul li{
+
+}
+#pagination ul li a{
+    color: #fff;
+    text-decoration: none;
+    display:block;
+    padding-top: 6px;
+    width: 32px;
+    height: 26px;
+}
+#pagination ul li a:hover{
+    background-color: #4B0082;
+    color: #fff;
+}
+.activePage{
+    background-color: darkorchid;
+    font-weight: 100;
+    color: #fff;
+}
+.disableClick{
+    pointer-events: none;
+}

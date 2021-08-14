@@ -1,0 +1,32 @@
+{{ define "navbar" }}
+
+<div class="navBar">
+    <div id="navLeft">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/problem">Problem</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </div>
+    <div id="navRight">
+        {{if .IsLogged }}
+        <div id="authentication">
+            <ul>
+                <li id="name">{{.Username}}</li>
+                <li><a href="/resetPassword">Change Password</a></li>
+                <li><a href="/logout"><i class="fa fa-user"></i>Logout</a></li>
+            </ul>
+        </div>
+        {{else}}
+        <div id="authentication">
+            <ul>
+                <li><a href="/login"><i class="fa fa-unlock-alt"></i>Login</a></li>
+                <li><a href="/register"><i class="fa fa-user"></i>Register</a></li>
+            </ul>
+        </div>
+        {{end}}
+    </div>
+</div>
+
+{{ end }}
