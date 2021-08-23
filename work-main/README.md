@@ -1,22 +1,21 @@
-# Shaiful Islam-Date (16/08/2021 & 17/08/2021)
+# Shaiful Islam-Date (23/08/2021)
 ## Work on Items
- -Web Applications 
-  1.Data Structures
-  2.net/http package
-  3.net/http to serve
-  4.html/template package
-  5.Error handling
-  6.Template caching
-  7.Validation
-  8.Literals and Closures 
+ -Json Web Token implementation
+ -Refresh Token & Access Token
+ -
+ 
 ## Blocker
 
 
 ## Remark
--Web Applications 
-- [] Soothing
-- [•] Medium
-- [] Stressful
+-Json Web Token implementation(login & Autinection)
+ - [•] Soothing
+ - [] Medium
+ - [] Stressful
+-Refresh Token & Access Token
+ - [] Soothing
+ - [] Medium
+ - [•] Stressful
 
 ## Comment
 
