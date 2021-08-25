@@ -1,29 +1,22 @@
-# Shaiful Islam-Date (23/08/2021)
+# Shaiful Islam-Date (24/08/2021)
 ## Work on Items
- -Json Web Token implementation
- -Refresh Token & Access Token
- -
+ - Todo Web service
+ - Gin Web Framework
+
  
 ## Blocker
 
 
 ## Remark
--Json Web Token implementation(login & Autinection)
- - [•] Soothing
- - [] Medium
- - [] Stressful
--Refresh Token & Access Token
- - [] Soothing
- - [] Medium
- - [•] Stressful
+- Todo Web service
+  - [] Soothing
+  - [•] Medium
+  - [] Stressful
+- Gin Web Framework
+  - [] Soothing
+  - [] Medium
+  - [•] Stressful
 
 ## Comment
 
-Today, I learned some new features like interface, method, module, package management, and dependency. I got some problems with the *file attribute. Next day I am trying to implement a Custom log package.
-
-
-
-
-
-
-
+Gin is basically a user that handles http requests to make it user friendly and it contains more functionality like outing, middleware support, rendering.future it will be familiar.
