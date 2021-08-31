@@ -1,6 +1,7 @@
-# Shaiful Islam-Date (24/08/2021)
+Shaiful Islam-Date (31/08/2021)
 ## Work on Items
- - Todo Web service
+ - Todo Web service(Elegant Monolith Pattern)
+ - MongoDB
  - Gin Web Framework
 
  
@@ -8,15 +9,19 @@
 
 
 ## Remark
-- Todo Web service
+- Todo Web service(Elegant Monolith Pattern)
+  - [] Soothing
+  - [] Medium
+  - [•] Stressful
+- MongoDB
   - [] Soothing
   - [•] Medium
   - [] Stressful
 - Gin Web Framework
   - [] Soothing
-  - [] Medium
-  - [•] Stressful
+  - [•] Medium
+  - [] Stressful
 
 ## Comment
 
-Gin is basically a user that handles http requests to make it user friendly and it contains more functionality like outing, middleware support, rendering.future it will be familiar.
+This project needs some more time because some new thing comes.
