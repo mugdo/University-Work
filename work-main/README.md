@@ -1,27 +1,21 @@
-Shaiful Islam-Date (31/08/2021)
+Shaiful Islam-Date (09/09/2021)
 ## Work on Items
- - Todo Web service(Elegant Monolith Pattern)
- - MongoDB
- - Gin Web Framework
+ - Flask Framework
+ - Rest API and mongoDB
 
- 
 ## Blocker
 
 
 ## Remark
-- Todo Web service(Elegant Monolith Pattern)
+- Flask Framework
+  - [] Soothing
+  - [•] Medium
+  - [] Stressful
+
+- Rest API and mongoDB
   - [] Soothing
   - [] Medium
   - [•] Stressful
-- MongoDB
-  - [] Soothing
-  - [•] Medium
-  - [] Stressful
-- Gin Web Framework
-  - [] Soothing
-  - [•] Medium
-  - [] Stressful
 
 ## Comment
-
-This project needs some more time because some new thing comes.
+     Using Flask framwork data inset can be done easyly but there is problem on dat find(). Trying to use query to find data from mongodb.
