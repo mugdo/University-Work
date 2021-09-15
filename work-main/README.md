@@ -1,21 +1,21 @@
-Shaiful Islam-Date (09/09/2021)
+Shaiful Islam-Date (15/09/2021)
 ## Work on Items
- - Flask Framework
- - Rest API and mongoDB
+ - Project(Flask,mongoengine)
+ - TypeScript 
 
 ## Blocker
 
 
 ## Remark
-- Flask Framework
+- Project(Flask,mongoengine)
   - [] Soothing
   - [•] Medium
   - [] Stressful
 
-- Rest API and mongoDB
+- TypeScript
   - [] Soothing
-  - [] Medium
-  - [•] Stressful
+  - [•] Medium
+  - [] Stressful
 
 ## Comment
-     Using Flask framwork data inset can be done easyly but there is problem on dat find(). Trying to use query to find data from mongodb.
+     This project registr and serch user by the date of the registation done. Starting TypeScript basic.
