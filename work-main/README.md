@@ -1,21 +1,21 @@
-Shaiful Islam-Date (15/09/2021)
+Shaiful Islam-Date (16/09/2021)
 ## Work on Items
- - Project(Flask,mongoengine)
- - TypeScript 
+ - Project(flask Blueprit)
+ - Python tutorial(Rest API)
 
 ## Blocker
 
 
 ## Remark
-- Project(Flask,mongoengine)
+- Project(flask Blueprit)
   - [] Soothing
   - [•] Medium
   - [] Stressful
 
-- TypeScript
-  - [] Soothing
-  - [•] Medium
+- Python tutorial(Rest API)
+  - [•] Soothing
+  - [] Medium
   - [] Stressful
 
 ## Comment
-     This project registr and serch user by the date of the registation done. Starting TypeScript basic.
+     Project done with flask Blueprint.
