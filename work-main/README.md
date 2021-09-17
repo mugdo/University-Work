@@ -1,21 +1,22 @@
-Shaiful Islam-Date (16/09/2021)
+Shaiful Islam-Date (17/09/2021)
 ## Work on Items
- - Project(flask Blueprit)
- - Python tutorial(Rest API)
+ - Project(flask MethodView)
+ - Serializing Data in Python
 
 ## Blocker
 
 
 ## Remark
-- Project(flask Blueprit)
+- Project(flask MethodView)
   - [] Soothing
   - [•] Medium
   - [] Stressful
 
-- Python tutorial(Rest API)
-  - [•] Soothing
+- Serializing Data in Python
+  - [] Soothing
   - [] Medium
-  - [] Stressful
+  - [•] Stressful
 
 ## Comment
-     Project done with flask Blueprint.
+     1. Modified the privous project uesr methodvew. Trying to adde Serializzing data.
+     2. Attached the github link Discord general.
