@@ -1,22 +1,32 @@
-Shaiful Islam-Date (22/09/2021)
+Shaiful Islam-Date (30/09/2021)
 ## Work on Items
- - Serializing Data in Python(flask MethodView)
- - PostgreSQL DB
+ - Docker-compser
+ - Docker commend 
+ - Dockerfile
  
 
 ## Blocker
-
+-
 
 ## Remark
-- Serializing
+
+- Docker-compser
   - [] Soothing
   - [] Medium
   - [•] Stressful
 
-- PostgreSql DB
+- Docker commend 
   - [] Soothing
   - [•] Medium
   - [] Stressful
 
+- Dockerfile 
+  - [] Soothing
+  - [•] Medium
+  - [] Stressful
+
+
+
+
 ## Comment
-     Worked with json object and insert into databe. adding serializing and deserializing.
+     Lerning some bsic docker comment.
